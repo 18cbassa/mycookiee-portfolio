@@ -1,11 +1,8 @@
 GIT
-  remote: https://github.com/twbs/bootstrap-rubygem
-  revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
+  remote: https://github.com/18cbassa/bassacamp_view_tool
+  revision: 984f2ea52d11de07badd582d97f45409a6cebabb
   specs:
-    bootstrap (4.0.0.alpha6)
-      autoprefixer-rails (>= 6.0.3)
-      popper_js (>= 1.9.9, < 2.0)
-      sass (>= 3.4.19)
+    bassacamp_view_tool (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -52,6 +49,9 @@ GEM
       execjs
     bcrypt (3.1.11)
     bindex (0.5.0)
+    bootstrap (4.0.0.alpha6)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
     builder (3.2.3)
     byebug (9.0.6)
     coderay (1.1.1)
@@ -103,7 +103,6 @@ GEM
       mini_portile2 (~> 2.2.0)
     orm_adapter (0.5.0)
     pg (0.21.0)
-    popper_js (1.10.8)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -190,7 +189,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap!
+  bassacamp_view_tool!
+  bootstrap
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.3)
