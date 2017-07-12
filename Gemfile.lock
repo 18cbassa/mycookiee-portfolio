@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/18cbassa/bassacamp_view_tool
-  revision: 984f2ea52d11de07badd582d97f45409a6cebabb
-  specs:
-    bassacamp_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -47,6 +41,7 @@ GEM
     arel (7.1.4)
     autoprefixer-rails (7.1.2.2)
       execjs
+    bassacamp_view_tool (0.1.0)
     bcrypt (3.1.11)
     bindex (0.5.0)
     bootstrap (4.0.0.alpha6)
@@ -189,7 +184,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bassacamp_view_tool!
+  bassacamp_view_tool (~> 0.1.0)
   bootstrap
   byebug
   coffee-rails (~> 4.2)
